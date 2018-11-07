@@ -13,8 +13,7 @@ var request = require('request');
 var axios = require("axios");
 var cheerio = require("cheerio");
 mongoose.Promise = Promise;
-// Require all models
-var db = require("./models");
+
 
 var PORT = 3000;
 
